@@ -4,7 +4,7 @@ pipeline {
   
   parameters {
     string (name: 'tomcat_dev',
-            defaultValue:'C:/Program Files/apache-tomcat-8.5.73-formation-jenkins/webapps',
+            defaultValue:'C:/Prog/apache-tomcat-8.5.73-formation-jenkins/webapps',
             description:'Staging Server : 8080')
     string (name: 'tomcat_prod',
             defaultValue:'C:/Prog/apache-tomcat-8.5.73-formation-production/webapps',
